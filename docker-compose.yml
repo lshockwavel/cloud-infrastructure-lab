@@ -1,6 +1,6 @@
 services:
   app_name:                    # Name of the service
-    container_name: inspire   # Name of the container
+    container_name: simple_server   # Name of the container
     image: ghcr.io/lshockwavel/simple_server:latest  # Use the latest image from GHCR
     ports: 
       - "7045:3000"         # Map port 7045 on the host to port 3000 in the container
